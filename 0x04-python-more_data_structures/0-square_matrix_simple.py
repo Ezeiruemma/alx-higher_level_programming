@@ -2,5 +2,4 @@
 
 def square_matrix_simple(matric=[]):
     matrix_nw = [[x ** 2 for x in row] for row in matrix]
-
     return matrix_nw
